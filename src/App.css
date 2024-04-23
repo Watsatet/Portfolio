@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.m-5{
+  margin: 10px;
+}
+.block{
+  display: none;
+}
+body {
+  background: whitesmoke;
+  
+  line-height: 2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.v1{
+  display: inline-block;
+  width: 50%;
+}
+.v1 img{
+  transition: all ease-out 1s;
+}
+.active{
+  text-decoration: underline;
+}
+.header {
+  height: 100px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+  display: flex;
+  width: 50vw;
+}
+
+ul li {
+  list-style: none;
+  margin: 0 15px;
+  letter-spacing: 1.2px;
+}
+ul li a{
+  color: black;
+}
+
+ul li:hover{
+  text-decoration: underline;
+}
+
+
+.logo {
+  width: 50vw;
+}
+
+.logo img {
+  height: 60px;
+  width: 60px;
+}
+
+/* main */
+.main {
+  margin: auto;
+  height: 80vh;
+  letter-spacing: 0.5rem;
+}
+
+.me {
+  /* background: #9eb1931f; */
+  border-radius: 50%;
+}
+
+.me img {
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn button {
+  padding: 10px;
+  border: solid 1px black;
+  border-radius: 20px;
+  font-size: 1rem;
+  margin: 10px;
+}
+
+.info {
+  margin: 6vw;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contact button {
+  background: black;
+}
+.contact button a{
+
+  color: white;
+}
+.link button{
+  margin: 5px 10px;
+  border: none;
+}
+
+/* Exp */
+.skills{
+  height: 70vh;
+  text-align: center;
+  flex-direction: column;
+  line-height: 2.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box{
+  border: solid 1px gray;
+  border-radius: 20px;
+  height: 230px;
+  width: 30vw;
+  margin: 40px;
+  padding: 10px;
+}
+.box-1{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 10px 30px;
+}
+.box-1 >div{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 5px;
+}
+.box-1 img{
+  height: 24px;
+  margin: 10px;
+}
+
+/* Utility classes */
+
+.tflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}    
+
+p {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.861);
+}    
+h1{
+  font-size: 2.5rem;
+  margin: 10px;
+}
+h2{
+  color: rgb(113, 113, 113);
+  font-size: 1.6rem;
+}
+h3{
+  font-size: 1.5rem;
+}
+button{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+/* btns about */
+
+.btns{
+  height: 50px;
+  padding: 10px 20px; 
+  border-radius: 10px;
+  background: black;
+  border: none;
+  margin: 5px;
+  font-size: 1.2rem;
+}
+.btns a{
+  color: white;
+}
+
+
+
+
+
+
+
+/* responsive */
+@media screen and (max-width:420px) {
+  .main {
+      flex-direction: column;
+      height: 200vh;
+      width: 200%;
+  }
+
+}
+
+@media screen and (min-width: 420px) and (max-width:600px) {
+  .main {
+      flex-direction: column;
+      height: 200vh;
+      width: 150vw;
+  }
+
+}
+
+@media screen and (min-width: 601px) and (max-width:800px) {
+  .main {
+      width: 138%;
+  }
+
+}
