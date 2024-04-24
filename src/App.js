@@ -14,7 +14,7 @@ function App() {
           <Navbar logoName={"MADHAV"} />
         </div>
         <Routes>
-          <Route path='/Portfolio' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route exact path="Home" element={<Home />} />
           <Route exact path="About" element={<About />} />
           <Route exact path="Contact" element={<Contact />} />
