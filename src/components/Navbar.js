@@ -8,9 +8,9 @@ export default function Navbar(props) {
       <div>
         <header>
           <div className="header tflex">
-            <div className="logo tflex"><a href="/Portfolio"><img src={logo} alt="" />{props.logoName}</a></div>
+            <div className="logo tflex"><a href="/home"><img src={logo} alt="" />{props.logoName}</a></div>
             <ul>
-              <li><NavLink to="/">HOME</NavLink></li>
+              <li><NavLink to="/home">HOME</NavLink></li>
               <li><NavLink to="/about">ABOUT</NavLink></li>
               <li><NavLink to="/projects">PROJECTS</NavLink></li>
               <li><NavLink to="/contact">CONTACT</NavLink></li>
