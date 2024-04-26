@@ -15,7 +15,7 @@ export default function Home() {
                     <h2>FRONTEND DEVELOPER</h2>
                     <div className="btn">
                         <div className="down"><button><a download href="./Madhav.pdf">Download&nbsp;CV</a></button></div>
-                        <div className="contact"><button><a href="/Contact">Contact&nbsp;Info</a></button></div>
+                        <div className="contact"><button><a href="/contact">Contact&nbsp;Info</a></button></div>
                     </div>
                     <div className="link tflex">
                         <button><a href="https://www.linkedin.com/in/madhav7307"><img height="35" src={linkedin} alt="" /></a></button>
